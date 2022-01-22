@@ -1,0 +1,18 @@
+{
+    "defaultEnv": { "ENV": "ENV" },
+    "dev": 
+    {
+        "driver": { "ENV": "DB_DRIVER" },
+        "host": { "ENV": "DB_HOST" },
+        "database": { "ENV": "DB_DEV" },
+        "user": { "ENV": "DB_USER" },
+        "password": { "ENV": "DB_PASSWORD" }
+    },
+    "test": {
+        "driver": { "ENV": "DB_DRIVER" },
+        "host": { "ENV": "DB_HOST" },
+        "database": { "ENV": "DB_TEST" },
+        "user": { "ENV": "DB_USER" },
+        "password": { "ENV": "DB_PASSWORD" }
+    }
+}

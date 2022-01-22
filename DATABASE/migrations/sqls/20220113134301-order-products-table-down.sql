@@ -1,0 +1,1 @@
+drop table if EXISTS order_products;
